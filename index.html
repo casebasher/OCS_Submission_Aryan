@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Authentication System</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app">
+    <div class="container">
         <h1>User Authentication System</h1>
         <div id="loginForm">
             <input type="text" id="userid" placeholder="User ID" required>
@@ -27,6 +27,8 @@
             </table>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="script.js"></script>
 </body>
 </html>
