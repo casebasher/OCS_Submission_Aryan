@@ -7,7 +7,7 @@ async function login() {
     const userid = document.getElementById('userid').value;
     const password = document.getElementById('password');
     const password_hash = md5(password.value);
-    password.value = '';
+    password.value = ''; // Clear password field for security
 
     try {
         const { data, error } = await supabase
